@@ -27,6 +27,7 @@ while keyboard.is_pressed('q') == False:
             if b == 64 or b==0 or b==102 or b==180:
                 click(x+680,y+150)
                 click(x+680,y+170)
+                time.sleep(0.01)
                 break
 
 
